@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <h1>Quiz Online <br>
+      <p style="font-size: medium;"> By Naiya nur falah</p></h1>
+
+   <div class="soal">
+
+        <label>1. Tag p berfungsi untuk …</label><br>
+        <input type="radio" name="no1" value="A"> Membuat Title <br>
+        <input type="radio" name="no1" value="B"> Membuat Judul <br>
+        <input type="radio" name="no1" value="C"> Membuat List <br>
+        <input type="radio" name="no1" value="D" id="jno1"> Membuat Paragraph <br>
+        <div id="rno1"></div><br>
+
+        <label>2. Kepanjangan dari HTML adalah …</label><br>
+        <input type="radio" name="no2" value="A"> Hyperlink Mobile Language <br>
+        <input type="radio" name="no2" value="B"> HyperText Markup Link <br>
+        <input type="radio" name="no2" value="C" id="jno2"> HyperText Markup Language <br>
+        <input type="radio" name="no2" value="D"> HyperTell Markup Language<br>
+        <div id="rno2"></div><br>
+
+        <label>3. Apa kepanjangan dari CSS…</label><br>
+        <input type="radio" name="no3" value="A"> Computer Style Sheets <br>
+        <input type="radio" name="no3" value="B" id="jno3"> Cascading Style Sheets <br>
+        <input type="radio" name="no3" value="C"> Creative Style Sheets <br>
+        <input type="radio" name="no3" value="D"> Cascading Style System <br>
+        <div id="rno3"></div><br>
+
+        <label>4. Siapa presiden saat ini…</label><br>
+        <input type="radio" name="no4" value="A" id="jno4"> Prabowo Subianto <br>
+        <input type="radio" name="no4" value="B"> Ir. Soekarno <br>
+        <input type="radio" name="no4" value="C"> Naisya Nurfalah <br>
+        <input type="radio" name="no4" value="D"> B.J. Habibie <br>
+        <div id="rno4"></div><br>
+
+        <label>5. Fungsi dari width dan height pada HTML adalah …</label><br>
+        <input type="radio" name="no5" value="A"> Mengatur lebar dan panjang <br>
+        <input type="radio" name="no5" value="B"> Mengatur panjang dan luas <br>
+        <input type="radio" name="no5" value="C" id="jno5"> Mengatur lebar dan tinggi <br>
+        <input type="radio" name="no5" value="D"> Menentukan tinggi dan luas <br>
+        <div id="rno5"></div><br>
+
+    </div>
+
+    <button type="button" onclick="cek()">Submit</button>
+    
+    <div id="hasil"></div>
+    <button id="ulang" onclick="location.reload()" style="display:none">Ulangi Kuis</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
